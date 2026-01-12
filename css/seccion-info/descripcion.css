@@ -1,0 +1,64 @@
+video {
+    border: solid black;
+    margin: 2%;
+}
+
+.descripcion {
+    height: 40%;
+}
+
+.div-descripcion {
+    color: #FFFFFF;
+    width: 75%;
+    margin: 2% auto;
+}
+
+.descripcion__logo {
+    width: 100%;
+    margin: 2% auto;
+}
+
+.ocultar {
+    display: none;
+}
+
+.descripcion-title {
+    font-size: 3rem;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.descripcion-text {
+    font-size: 1.3rem;
+}
+
+.descargar-app {
+    text-align: center;
+}
+
+.descargar-app:hover {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .descripcion {
+        width: 88%;
+    }
+    .descripcion__logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    .div-descripcion {
+        margin: 1% auto;
+    }
+    .descripcion-title {
+        font-size: 4rem;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    .descripcion-text {
+        font-size: 1.3rem;
+    }
+}

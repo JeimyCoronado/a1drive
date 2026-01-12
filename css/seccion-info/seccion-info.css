@@ -1,0 +1,17 @@
+.seccion-info {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0A3871;
+}
+
+@media screen and (min-width: 1024px) {
+    .seccion-info {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .seccion-info {
+        width: 50vw;
+    }
+}

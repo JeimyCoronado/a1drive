@@ -1,0 +1,14 @@
+{
+  "name": "jcm",
+  "version": "1.0.0",
+  "description": "Página del Grupo JCM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jcm",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.9.2"
+  }
+}

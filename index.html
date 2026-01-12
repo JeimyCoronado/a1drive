@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>JCM</title>
+        <link rel="icon" type="image/png" href="../img/logo.png" />
+        <script src="https://kit.fontawesome.com/ad9fc5dea8.js" crossorigin="anonymous"></script>
+        <link href="./css/reset.css" rel="stylesheet">
+        <link href="./css/bases.css" rel="stylesheet">
+        <link href="./css/seccion-logo.css" rel="stylesheet">
+        <link href="./css/seccion-info/seccion-info.css" rel="stylesheet">
+        <link href="./css/seccion-info/header.css" rel="stylesheet">
+        <link href="./css/seccion-info/descripcion.css" rel="stylesheet">
+        <link href="./css/seccion-info/productos.css" rel="stylesheet">
+        <link href="./css/seccion-info/contacto.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="seccion-logo">
+            <img src="./img/logo.png" class="seccion-logo__logo">
+        </section>
+        <section class="seccion-info">
+            <header>
+                <nav>
+                    <ul class="head-enlace">
+                        <li><button class="head-enlace-btn head-enlace-btn-seleccionado" data-btn-home>HOME</button></li>
+                        <li><button class="head-enlace-btn" data-btn-nosotros>PASAJERO</button></li>
+                        <li><button class="head-enlace-btn" data-btn-productos>CONDUCTOR</button></li>
+                        <li><button class="head-enlace-btn" data-btn-contacto>CONTACTO</button></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="descripcion">
+                <div class=" div-descripcion" data-home>
+                    <h2 class="descripcion-title">Bienvenido</h2>
+                    
+                    <p class="descripcion-text">Somos una empresa de servicios de transporte privado dedicada a conectar de manera 
+                        eficiente y segura a pasajeros y conductores a través de una plataforma tecnológica innovadora. Satisfacemos 
+                        las necesidades de nuestros usuarios mediante un servicio confiable, cómodo y accesible, apoyado en altos 
+                        estándares de calidad, seguridad y atención personalizada. Operamos con responsabilidad y compromiso hacia 
+                        nuestros usuarios, conductores, colaboradores y aliados estratégicos, promoviendo eficiencia, rentabilidad 
+                        y un impacto positivo en la sociedad.</p>
+                </div>
+                <div class="div-descripcion ocultar" data-nosotros>
+                    <p class="productos descripcion-text">
+                        Nuestra aplicación de transporte privado permite solicitar viajes de forma rápida y sencilla desde el móvil. 
+                        Los usuarios pueden elegir el tipo de vehículo, ver tarifas estimadas y seguir el recorrido en tiempo real. 
+                        Garantizamos seguridad y comodidad gracias a conductores verificados y calificados constantemente. 
+                        Los pagos se realizan de manera segura y es posible consultar el historial de viajes. Un servicio confiable, 
+                        eficiente y adaptado a las necesidades diarias, traslados al aeropuerto y más.
+                        <video width="640" height="360" controls>
+                            <source src="./video/PASAJERO.mp4" type="video/mp4">
+                            Tu navegador no soporta el video.
+                        </video>
+                        <a class="descargar-app" href="https://play.google.com/store/apps/details?id=com.a1drive.usuario&pcampaignid=web_share">Descargar App de pasajero</a>
+                    </p>
+                </div>
+                <div class="div-descripcion ocultar" data-productos>
+                    <div class="productos descripcion-text">
+                        Nuestra aplicación para conductores ofrece una experiencia eficiente y organizada, diseñada para optimizar el 
+                        tiempo, aumentar los ingresos y garantizar un servicio confiable y seguro. Los conductores pueden elegir los 
+                        viajes según su disponibilidad, acceder a su historial y monitorear su desempeño. La app brinda información 
+                        completa de cada trayecto, con mapas y rutas optimizadas. Priorizamos la seguridad mediante procesos de 
+                        verificación rigurosos y fomentamos la mejora continua a través de calificaciones y comentarios.  
+                        <video width="640" height="360" controls>
+                            <source src="./video/CONDUCTOR.mp4" type="video/mp4">
+                            Tu navegador no soporta el video.
+                        </video>
+                        <a class="descargar-app" href="https://play.google.com/store/apps/details?id=io.apphive.render&pcampaignid=web_share">Descargar App de conductor</a>
+                    </div>
+                    
+                </div>
+                <div class="div-descripcion ocultar" data-contacto>
+                    <div class="datos">
+                        <p class="subtitle">Contáctanos:</p>
+                        <p>grupojcm@gmail.com</p>
+                        <p>947 214 689</p>
+                        <p class="subtitle">Haz tu reclamo:</p>
+                        <a class="libro" href="https://docs.google.com/forms/d/e/1FAIpQLSc8OxfFm1FyXAC9oMvx79Gw3Xs9ZtPL2uHKvuGgk8mGzdIlfA/viewform?usp=dialog">Libro de Reclamaciones</a>
+                    
+                    </div>
+                    <p class="siguenos">Síguenos en nuestras redes y entérate de nuestras promociones:</p>
+
+                    <div class="redes">
+                        <a class="link" href="https://www.facebook.com/share/19JwAPoHQB/"><i class="fa-brands fa-square-facebook redes-color"></i></a>
+                        <a class="link" href="https://www.instagram.com/a1drive.22?igsh=Njk1NGl1ejFsc3Bt"><i class="fa-brands fa-square-instagram redes-color"></i></a>
+                        <a class="link" href="https://www.tiktok.com/@a1drive?_r=1&_t=ZM-92yOUxOPpgy"><i class="fa-brands fa-tiktok  tik-tok"></i></a>
+                    </div>
+                </div>
+            </main>
+            
+        </section>
+        <script type="module" src="./js/javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+.subtitle {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+.siguenos {
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.datos {
+    color: #FFFFFF;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes-color {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.redes-color:hover {
+    transform: scale(1.2);
+}
+
+.tik-tok {
+    color: #0A3871;
+    font-size: 1.4rem;
+    border: #FFFFFF solid;
+    background-color: #FFFFFF;
+    border-radius: 22%;
+    padding: 20%;
+    margin-top: 10%;
+
+}
+
+.tik-tok:hover {
+    transform: scale(1.2);
+}
+
+.libro {
+    color: #0A3871;
+    border: #FFFFFF solid;
+    background-color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 2%;
+    margin-bottom: 10%;
+
+}
+
+.libro:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    margin-right: 10%;
+    height: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .subtitle {
+        font-size: 2rem;
+    }
+}
